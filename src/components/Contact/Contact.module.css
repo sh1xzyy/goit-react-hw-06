@@ -1,0 +1,19 @@
+.userItem{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: calc((100% - 3 * 24px) / 4);
+    padding: 10px;
+    border: 1px solid #292929;
+    border-radius: 8px;
+}
+
+.userItemWrapper{
+    display: flex;
+    align-items: center;
+    column-gap: 10px;
+}
+
+.userItemBtn{
+    height: 30px;
+}
